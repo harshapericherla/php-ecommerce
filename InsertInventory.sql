@@ -6,3 +6,4 @@ INSERT INTO inventory VALUES
 (default,'introduction to prog
 ramming',18),
 (default,'mouse',23);
+
