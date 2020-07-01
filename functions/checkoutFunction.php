@@ -61,7 +61,7 @@
                 throw new Exception("Unable to insert into order details");
             }
 
-            $update_query = "UPDATE inventory SET quantity = quantity - 1 WHERE inventory_id = ?";
+            $update_query = "UPDATE inventory SET quantity = quantity - 1 WHERE inventory_id = ? AND quantity > 0";
             // reducing the quantity
             $stmt = $mysqli -> prepare($update_query);
             $stmt->bind_param("i",$inventoryId);

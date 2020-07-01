@@ -1,0 +1,123 @@
+html
+{
+    font-family: sans-serif;
+}
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.navLink
+{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1.4em;
+    color: rgb(82, 82, 82);
+}
+section#home
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    font-weight: 100;
+    font-family:  cursive;
+    color: rgb(24, 24, 24);
+}
+.products
+{
+    margin-top: 30px;
+}
+.productswrapper
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.product
+{
+    height: 150px;
+    width: 25%;
+    box-shadow: 0 0 3px 1px rgb(122, 122, 122);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.product > div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.product > div > label
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.product > .checkout
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.checkout > a
+{
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    width: 30%;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.checkout > a:hover
+{
+    cursor: pointer;
+}
+label
+{
+    font-weight: bold;
+}
+.form-group
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.form-group > input, .form-group > select
+{
+    margin-left: 20px;
+} 
+.checkout-action
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+#checkoutbtn
+{
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    width: 20%;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.checkout
+{
+    margin-top: 30px;
+}

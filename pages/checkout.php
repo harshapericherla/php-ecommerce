@@ -1,5 +1,8 @@
 <?php require_once("../functions/index.php") ?>
 <html>
+  <head>
+     <link rel="stylesheet" href="../css/index.css" />
+  </head>
   <body>
       <div class="navbar">
          <a class="navLink" href="../index.php">Home</a>
@@ -26,7 +29,7 @@
                      <option value="Visa">Visa</option>
                   </select>
                </div>
-               <input type="submit" />
+               <div class="form-group"><input type="submit" id="checkoutbtn"/></div>
             </form>
          <?php } ?>
      </div>
